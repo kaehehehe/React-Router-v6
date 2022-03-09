@@ -14,8 +14,8 @@ const App = () => {
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/profile/:username" element={<Profile />}></Route>
+        <Route path="/about" element={<About />} />
+        <Route path="/profile/:username" element={<Profile />} />
       </Routes>
       <footer>Footer</footer>
     </Router>
